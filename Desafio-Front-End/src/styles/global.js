@@ -7,12 +7,12 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
     body{
-        background-color: ${({theme}) => theme.COLORS.BACKGROUND_MEDIUM};
+        background-color: ${({theme}) => theme.COLORS.BACKGROUND_DARK};
         color: ${({theme}) => theme.COLORS.WHITE};
     }
     body, input, button, textarea {
         font-family: 'Roboto Slab', serif;
-        font-size: 16px;
+        font-size: 1.6rem;
         -webkit-font-smoothing: antialised;
     }
     a {

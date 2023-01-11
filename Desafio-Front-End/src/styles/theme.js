@@ -3,7 +3,6 @@ export default {
       BACKGROUND_DARK: "#1C1B1E",
       BACKGROUND_MEDIUM: "#262529",
       BACKGROUND_LIGHT: "#3E3B47",
-      BACKGROUND_BUTTON: "#FF859B",
       BACKGROUND_TAGS: "#312E38",
   
       WHITE: "#F4EDE8",
