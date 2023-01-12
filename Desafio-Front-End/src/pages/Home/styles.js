@@ -11,14 +11,20 @@ export const Container = styled.div`
     > main {
         grid-area: Content;
         overflow-y: auto;
-        margin: 5rem 12rem;
+        margin: 2rem 12rem;
         display: flex;
+        justify-content: space-between;
+        > button {
+        width: 20rem;
+        height: 3.5rem;
+        margin: 0;
+    }
     }
     > h1 {
-        font-size: 3.2rem;
+        font-size: 2rem;
         color: ${({theme}) => theme.COLORS.WHITE};
         font-weight: 400;
-        line-height: 4.2rem;
     }
+    
 `;
 
