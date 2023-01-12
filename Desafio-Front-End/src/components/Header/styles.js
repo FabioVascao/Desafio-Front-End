@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.header`
     width: 100%;
-    height: 11.6rem;
+    height: 10rem;
     border-bottom: solid 1px;
     border-color: ${({theme}) => theme.COLORS.GRAY_300};
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_DARK};
     grid-area: Header;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 8rem;
 `;
 
@@ -49,24 +49,20 @@ export const Profile = styled.div`
     }
 `;
 
-export const Input = styled.div`
-    width: 100%;
-    height: 5.6rem;
-    display: flex;
-    align-items: center;
-    background-color: ${({theme}) => theme.COLORS.BACKGROUND_LIGHT};
-    color: ${({theme}) => theme.COLORS.GRAY_100};
-    margin-bottom: 1rem;
-    border-radius: 1rem;
+export const Search = styled.div`
+        display: flex;
+        align-items: center;
     > input {
-        height: 5.6rem;
-        width: 100%;
-        padding: 1.2rem;
-        color: ${({theme}) => theme.COLORS.GRAY_100};
-        background: transparent;
-        border: 0;
+        width: 30rem;
+        height: 3.8rem;
+        padding-left: 1rem;
+        background-color: ${({theme}) => theme.COLORS.BACKGROUND_LIGHT};
+        color: ${({theme}) => theme.COLORS.WHITE};
+        margin-bottom: 1rem;
+        border-radius: 1rem;
         &:placeholder {
             color: ${({theme}) => theme.COLORS.GRAY_100};
+            font-size: 1rem;
         }
     }
 

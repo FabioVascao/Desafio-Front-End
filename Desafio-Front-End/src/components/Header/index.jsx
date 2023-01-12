@@ -1,4 +1,4 @@
-import { Container, Profile, Title, Input } from './styles';
+import { Container, Profile, Title, Search } from './styles';
 
 export function Header(){
     return (
@@ -6,10 +6,9 @@ export function Header(){
             <Title>
                 <h1>RocketMovies</h1>
             </Title>
-            <Input 
-                placeholder="Pesquisar pelo título"
-                type="text"
-            />
+            <Search>
+                <input type="text" placeholder='Pesquisar pelo título' />
+            </Search>    
             <Profile to="/profile">
                 <div>
                     <strong>FabioVascão</strong>
