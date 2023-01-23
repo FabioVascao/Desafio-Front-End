@@ -1,4 +1,4 @@
-import {Container} from './styles';
+import {Container, Content} from './styles';
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { Tag } from '../../components/Tag';
@@ -13,8 +13,24 @@ export default function Home(){
         <h1>Meus Filmes</h1>
         <Button title="Adicionar Filme"></Button>
       </main>
-      <NoteFilm title="Teste"></NoteFilm>
-      <Tag title="React"></Tag>
+      <Content>
+        <NoteFilm data={{
+          title: 'Teste',
+          tags: [
+            {id: '1', name: 'React'},
+            {id: '2', name: 'Node'}
+          ]
+        }}
+        />
+        <NoteFilm data={{
+          title: 'Teste',
+          tags: [
+            {id: '1', name: 'React'},
+            {id: '2', name: 'Node'}
+          ]
+        }}
+        />
+      </Content>
     </Container>
     
   )

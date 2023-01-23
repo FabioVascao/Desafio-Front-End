@@ -6,7 +6,7 @@ export const Container = styled.span`
     font-size: 1.2rem;
     border-radius: 1rem;
     padding: 0.5rem 1.6rem;
-    background-color: ${({theme}) => theme.COLORS.BACKGROUND_LIGHT};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_TAGS};
     color: ${({theme}) => theme.COLORS.WHITE};
     display: flex;
     text-align: center;

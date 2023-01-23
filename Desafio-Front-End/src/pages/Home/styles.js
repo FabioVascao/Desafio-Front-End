@@ -10,7 +10,6 @@ export const Container = styled.div`
     "Content";
     > main {
         grid-area: Content;
-        overflow-y: auto;
         margin: 2rem 12rem;
         display: flex;
         justify-content: space-between;
@@ -28,3 +27,7 @@ export const Container = styled.div`
     
 `;
 
+export const Content = styled.div`
+    overflow-y: auto;
+    padding: 0 6.4rem;
+`
