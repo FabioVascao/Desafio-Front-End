@@ -1,3 +1,4 @@
+import { FiPlus } from 'react-icons/fi';
 import {Container, Content} from './styles';
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
@@ -11,11 +12,20 @@ export default function Home(){
       <Header/>
       <main>
         <h1>Meus Filmes</h1>
-        <Button title="Adicionar Filme"></Button>
+        <Button title="Adicionar Filme" icon={FiPlus}/>
       </main>
       <Content>
         <NoteFilm data={{
           title: 'Teste',
+          tags: [
+            {id: '1', name: 'React'},
+            {id: '2', name: 'Node'},
+            {id: '3', name: 'Vite'}
+          ]
+        }}
+        />
+        <NoteFilm data={{
+          title: 'Teste2',
           tags: [
             {id: '1', name: 'React'},
             {id: '2', name: 'Node'}
@@ -23,7 +33,7 @@ export default function Home(){
         }}
         />
         <NoteFilm data={{
-          title: 'Teste',
+          title: 'Teste3',
           tags: [
             {id: '1', name: 'React'},
             {id: '2', name: 'Node'}

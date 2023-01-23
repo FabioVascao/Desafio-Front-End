@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.header`
     width: 100%;
-    height: 10rem;
+    height: 7rem;
     border-bottom: solid 1px;
     border-color: ${({theme}) => theme.COLORS.GRAY_300};
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_DARK};
     grid-area: Header;
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 8rem;
+    justify-content: space-between;
+    padding: 0 6.4rem;
 `;
 
 export const Title = styled.div`

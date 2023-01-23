@@ -4,15 +4,16 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-rows: 10rem auto;
+    grid-template-rows: 8rem auto;
     grid-template-areas: 
     "Header"
     "Content";
     > main {
         grid-area: Content;
-        margin: 2rem 12rem;
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        padding: 2rem 6.4rem;
         > button {
         width: 20rem;
         height: 3.5rem;
