@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.header`
     width: 100%;
-    height: 7rem;
+    height: 6.5rem;
     border-bottom: solid 1px;
     border-color: ${({theme}) => theme.COLORS.GRAY_300};
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_DARK};
@@ -27,8 +27,8 @@ export const Profile = styled.div`
     align-items: center;
     gap: 1rem;
     > img {
-        width: 6.4rem;
-        height: 6.4rem;
+        width: 6rem;
+        height: 6rem;
         border-radius: 50%;
     }
     > div {

@@ -2,14 +2,24 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 105px auto;
+    grid-template-areas: 
+    "Header"
+    "Content";
     > main {
         width: 100%;
         padding: 2rem 6.4rem;
+        grid-area: Content;
+        overflow-y: auto;
         > h1 {
             font-size: 3.6rem;
             font-weight: 500;
             line-height: 4.7rem;
             margin: 0.5rem 0;
+            display: flex;
+            gap: 1rem;
         }
         > span {
             font-size: 1.4rem;
