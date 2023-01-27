@@ -17,6 +17,7 @@ export const Container = styled.div`
         background: transparent;
         border: 0;
         &:placeholder {
+            font-size: 1.6rem;
             color: ${({theme}) => theme.COLORS.GRAY_100};
         }
     }
