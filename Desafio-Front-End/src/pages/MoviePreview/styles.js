@@ -44,3 +44,24 @@ export const Link = styled.div`
         padding-right: 0.5rem;
     }
 `;
+
+export const Tags = styled.div`
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    margin: 2rem 0rem;
+`;
+
+export const Section = styled.div`
+    width: 100%;
+    margin-top: 2rem;
+    align-items: justify;
+    justify-items: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    text-indent: 2rem;
+    text-align: justify;
+`;

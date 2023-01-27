@@ -8,7 +8,7 @@ export const Container = styled.span`
     padding: 0.5rem 1.6rem;
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_TAGS};
     color: ${({theme}) => theme.COLORS.WHITE};
-    display: flex;
+    display: inline-flex;
     text-align: center;
     align-items: center;
 `;
