@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 5.6rem;
+    height: 4rem;
     display: flex;
     align-items: center;
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_LIGHT};
@@ -20,5 +20,8 @@ export const Container = styled.div`
             font-size: 1.6rem;
             color: ${({theme}) => theme.COLORS.GRAY_100};
         }
+    }
+    > svg {
+        margin-left: 1.6rem;
     }
 `;
