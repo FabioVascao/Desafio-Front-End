@@ -1,9 +1,10 @@
 import { FiArrowLeft } from 'react-icons/fi';
-import {Container, Content, New} from './styles';
+import {Container, Content, New, Buttons} from './styles';
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
-import { NoteFilm } from '../../components/NoteFilm';
+import { Section } from '../../components/Section';
+import { NoteItem } from '../../components/NoteItem';
 
 export function NewMovie(){
   return (
@@ -24,6 +25,18 @@ export function NewMovie(){
            </New>
            <textarea name="story" placeholder="Observações"/>
     
+          <Section title='Marcadores'>
+              <div className="Tags">
+                  <NoteItem value="React"/>
+                  <NoteItem placeholder="Novo Marcador" isNew/>
+              </div>
+          </Section>
+
+          <Buttons>
+            <Button title='Excluir Filme'></Button>
+            <Button title='Salvar Alterações'></Button>
+          </Buttons>
+
         </Content>
       </main>
       
