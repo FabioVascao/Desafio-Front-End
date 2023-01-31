@@ -2,10 +2,9 @@ import { FiPlus } from 'react-icons/fi';
 import {Container, Content} from './styles';
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
-import { Tag } from '../../components/Tag';
 import { NoteFilm } from '../../components/NoteFilm';
 
-export default function Home(){
+export function Home(){
   return (
     
     <Container>
@@ -16,16 +15,19 @@ export default function Home(){
       </main>
       <Content>
         <NoteFilm data={{
-          title: 'Teste',
+          title: 'Interstellar',
+          content: 'Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua familia. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...',
           tags: [
             {id: '1', name: 'React'},
             {id: '2', name: 'Node'},
             {id: '3', name: 'Vite'}
           ]
         }}
+        
         />
         <NoteFilm data={{
-          title: 'Teste2',
+          title: 'Interstellar',
+          content: 'Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua familia. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...',
           tags: [
             {id: '1', name: 'React'},
             {id: '2', name: 'Node'}
@@ -33,7 +35,8 @@ export default function Home(){
         }}
         />
         <NoteFilm data={{
-          title: 'Teste3',
+          title: 'Interstellar',
+          content: 'Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua familia. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...',
           tags: [
             {id: '1', name: 'React'},
             {id: '2', name: 'Node'}

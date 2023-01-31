@@ -10,8 +10,12 @@ export const Container = styled.button`
     padding: 0 1.6rem;
     margin-top: 2.4rem;
     font-weight: 500;
-
+    display: flex;
+    align-items: center;
     &:disabled {
         opacity: 0.5;
+    }
+    > svg {
+        margin-right: 1.6rem;
     }
 `;

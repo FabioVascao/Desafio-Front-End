@@ -14,6 +14,23 @@ export const Container = styled.button`
         font-size: 2.4rem;
         color: ${({theme}) => theme.COLORS.WHITE};
     }
+    > p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        text-align: justify;
+        color: ${({theme}) => theme.COLORS.WHITE};
+    }
+    > div {
+        display: flex;
+        text-align: left;
+        margin-top: 1rem;
+        > img {
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            margin-right: 0.5rem;      
+    }
+    }
     > footer {
         width: 100%;
         display: flex;
