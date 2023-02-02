@@ -48,6 +48,9 @@ export const Form = styled.form`
         text-align: center;
         color: ${({theme}) => theme.COLORS.PINK};
     }
+    > button {
+        justify-content: center;
+    }
 `;
 
 export const Background = styled.div`

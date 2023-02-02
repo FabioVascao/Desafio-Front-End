@@ -28,6 +28,9 @@ export const Form = styled.form`
     > div:nth-child(4){
         margin-top: 30px;
     }
+    > button {
+        justify-content: center;
+    }
 `;
 
 export const Avatar = styled.div`

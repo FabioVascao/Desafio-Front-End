@@ -43,7 +43,7 @@ export const Container = styled.div`
     }
 `;
 
-export const Link = styled.div`
+export const Back = styled.div`
     width: 100%;
     font-size: 1.6rem;
     color: ${({theme}) => theme.COLORS.PINK};

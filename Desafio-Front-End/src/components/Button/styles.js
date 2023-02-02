@@ -12,6 +12,7 @@ export const Container = styled.button`
     font-weight: 500;
     display: flex;
     align-items: center;
+    text-align: center;
     &:disabled {
         opacity: 0.5;
     }

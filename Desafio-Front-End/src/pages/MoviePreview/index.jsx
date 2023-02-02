@@ -1,7 +1,8 @@
 import { FiArrowLeft, FiCalendar } from 'react-icons/fi';
-import { Container, Link, Tags, Section } from "./styles";
+import { Container, Back,  Tags, Section } from "./styles";
 import { Header } from "../../components/Header";
 import { Tag } from "../../components/Tag";
+import { Link } from 'react-router-dom';
 
 export function MoviePreview() {
     return (
@@ -9,7 +10,10 @@ export function MoviePreview() {
             <Header/>
 
             <main>
-                <Link> <FiArrowLeft/> Voltar </Link>
+                <Link to="/">
+                    <Back><FiArrowLeft/> Voltar </Back>
+                </Link>
+                
                 <h1>Interestellar
                 <img src="star.color.svg" alt=""/>
                 <img src="star.color.svg" alt=""/>

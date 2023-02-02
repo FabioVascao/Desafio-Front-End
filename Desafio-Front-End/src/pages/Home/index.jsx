@@ -3,6 +3,7 @@ import {Container, Content} from './styles';
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { NoteFilm } from '../../components/NoteFilm';
+import { Link } from 'react-router-dom';
 
 export function Home(){
   return (
@@ -11,7 +12,9 @@ export function Home(){
       <Header/>
       <main>
         <h1>Meus Filmes</h1>
-        <Button title="Adicionar Filme" icon={FiPlus}/>
+        <Link to="/new">
+           <Button title="Adicionar Filme" icon={FiPlus}/>
+        </Link>
       </main>
       <Content>
         <NoteFilm data={{

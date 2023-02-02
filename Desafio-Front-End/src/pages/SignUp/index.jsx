@@ -3,8 +3,9 @@ import { Container, Form, Background } from "./styles";
 
 import {Button} from "../../components/Button";
 import {Input} from "../../components/Input";
+import { Link } from 'react-router-dom';
 
-export function SingUp() {
+export function SignUp() {
     return (
         <Container>
             <Form>
@@ -19,7 +20,7 @@ export function SingUp() {
                 <Input type="password" placeholder="Senha" icon={FiLock}/>
 
                 <Button title="Cadastrar"/>
-                <a href="#"><FiArrowLeft/>Volte para o login</a>
+                <Link to="/"><FiArrowLeft/>Volte para o login</Link>
             </Form>   
             <Background/>
         </Container>

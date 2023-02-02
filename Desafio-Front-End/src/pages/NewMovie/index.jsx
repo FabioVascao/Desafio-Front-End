@@ -5,6 +5,8 @@ import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
 import { Section } from '../../components/Section';
 import { NoteItem } from '../../components/NoteItem';
+import { Link } from 'react-router-dom';
+
 
 export function NewMovie(){
   return (
@@ -13,9 +15,9 @@ export function NewMovie(){
       <Header/>
       <main>
         <Content>
-           <a href='/'>
+          <Link to="/">
              <FiArrowLeft/>Voltar
-           </a>
+           </Link>
 
            <h1>Novo Filme</h1>
 

@@ -3,8 +3,9 @@ import { Container, Form, Background } from "./styles";
 
 import {Button} from "../../components/Button";
 import {Input} from "../../components/Input";
+import { Link } from 'react-router-dom';
 
-export function SingIn() {
+export function SignIn() {
     return (
         <Container>
             <Form>
@@ -18,7 +19,7 @@ export function SingIn() {
                 <Input type="password" placeholder="Senha" icon={FiLock}/>
 
                 <Button title="Entrar"/>
-                <a href="#">Criar conta</a>
+                <Link to="/register">Criar conta</Link>
             </Form>   
             <Background/>
         </Container>
